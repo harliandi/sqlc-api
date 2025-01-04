@@ -10,7 +10,7 @@ sqlc-api is a Go-based API server that utilizes SQLC for generating type-safe da
 Before setting up the project, ensure you have the following installed:
 
 Go: Version 1.16 or higher.
-PostgreSQL: Ensure the database server is running and accessible.
+MySQL: Ensure the database server is running and accessible.
 SQLC: Follow the installation guide to set up SQLC.
 Getting Started
 1. Clone the Repository
