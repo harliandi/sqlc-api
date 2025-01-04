@@ -1,0 +1,17 @@
+### Get All Authors
+GET http://localhost:3000/author
+
+### Get Detail Author
+GET http://localhost:3000/author/1
+
+### Insert Author
+POST http://localhost:3000/author
+content-type: application/json
+
+{
+    "name": "harliandi",
+    "bio": "software engineer"
+}
+
+### Delete Author
+DELETE http://localhost:3000/author/1
