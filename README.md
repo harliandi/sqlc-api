@@ -56,15 +56,15 @@ The server will start on http://localhost:3000.
 ## API Endpoints
 The API provides the following endpoints:
 
-GET /author: Retrieves a list of items.
-POST /author: Creates a new item.
-GET /author/{id}: Retrieves a specific item by ID.
-PUT /author/{id}: Updates an existing item by ID.
-DELETE /author/{id}: Deletes an item by ID.
+- GET /author: Retrieves a list of items.
+- POST /author: Creates a new item.
+- GET /author/{id}: Retrieves a specific item by ID.
+- PUT /author/{id}: Updates an existing item by ID.
+- DELETE /author/{id}: Deletes an item by ID.
 For detailed request and response formats, refer to the API documentation.
 
 ## Acknowledgements
-SQLC for generating type-safe Go code from SQL queries.
-Chi for the HTTP router.
-Golang Migrate for database migrations.
+- SQLC for generating type-safe Go code from SQL queries.
+- Chi for the HTTP router.
+- Golang Migrate for database migrations.
 For more information, visit the repository.
